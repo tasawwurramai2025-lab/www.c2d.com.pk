@@ -1,0 +1,5 @@
+GitHub Pages deployment notes:
+- Upload the contents of this folder (index.html, images/, CNAME) to a public GitHub repo's root.
+- In GitHub repo Settings -> Pages, set Branch: main (or gh-pages) and folder: / (root).
+- Add DNS CNAME: create CNAME record for 'www' pointing to '<your-github-username>.github.io' or follow GitHub instructions.
+- GitHub will provision HTTPS automatically once DNS is set.
